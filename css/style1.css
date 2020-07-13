@@ -1,0 +1,600 @@
+html{
+    scroll-behavior:smooth;
+}
+*{margin: 0;padding: 0;box-sizing: border-box; font-family: 'Poppins', sans-serif;}
+
+li{list-style:none;}
+.img-fluid{
+    top:-110px;
+    left:80px;
+    position:absolute;
+    height:130px;
+    width:330px;
+    z-index:3;
+}
+.headerbase{
+    background-color:#fff!important;
+    border:0px;
+    width:100%;
+    height:188px;
+    z-index:-1;
+    position:relative;
+}
+.headertop{
+    background-color:#39393b;
+    border:0px;
+    width:100%;
+    top:0px;
+    height:450px;
+    clip-path: polygon(50% 0%, 100% 0, 100% 12%, 40% 12%, 37% 28%, 0 28%, 0 0);
+    position:absolute;
+    z-index:1;
+}
+.expertdiv{
+background-color:#f2d121;
+clip-path: polygon(100% 21%, 100% 54%, 50% 100%, 50% 100%, 0 54%, 0 21%);
+height:150px;
+width:150px;
+z-index:3;
+left:395px;
+top:65px;
+position:absolute;
+text-align:center;
+}
+.expertdiv a{
+    font-size:18px;
+    color:#000;
+    z-index:3;
+    top:40px;
+    left:11px;
+    font-weight:600;
+    position:absolute;
+    padding:5px 5px;
+    border-top-left-radius: 8px !important;
+    border-bottom-left-radius: 8px !important;
+    border-top-right-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
+}
+.expertdiv a:hover{
+    text-decoration:none;
+    background:#fff;
+    color:#000;}
+
+.contact{
+    background-color:#fff;
+    height:50px;
+    width:250px;
+    top:68px;
+    left:730px;
+    border:0px;
+    position:absolute;
+    z-index:2;
+    text-align:center;
+}
+
+.contact p{
+    font-size:15px;
+    text-align:center;
+}
+.contact a{
+    color:#555;
+    top:23px;
+    left:60px;
+    position:absolute;
+    font-weight: 700;
+}
+.contact a:hover{
+text-decoration:none;
+}
+.square{
+   height: 50px;
+   width: 50px;
+   font-size:36px;
+   position:absolute;
+   padding-top: -5px;
+   padding-right: 5px;
+   padding-bottom: 5px;
+   padding-left: 5px;
+   background-color:#f2d121;
+}
+.email{
+    background-color:#fff;
+    height:50px;
+    width:250px;
+    top:68px;
+    left:1025px;
+    border:0px;
+    position:absolute;
+    z-index:2;
+}
+.email p{
+    font-size:15px;
+    text-align:center;
+}
+.email a{
+    color:#555;
+    top:23px;
+    left:60px;
+    position:absolute;
+    font-weight: 700;
+}
+.email a:hover{
+text-decoration:none;
+}
+.emailsquare{
+   height: 50px;
+   width: 50px;
+   font-size:35px;
+   position:absolute;
+   padding-top: -5px;
+   padding-right: 5px;
+   padding-bottom: 4px;
+   padding-left: 7px;
+   background-color:#f2d121;
+}
+/* NavBar css start*/
+.navbar{
+    top:-54px;
+
+}
+.navbar-custom{
+    background-color:#f2d121;
+}
+.nav-item a{
+    color: 	#000000!important;
+    font-size:15px;
+    letter-spacing:1px;
+    font-weight:bold;
+    display:inline-block;
+    width:100%;
+    text-align:center;
+    transition:.6s;
+    text-decoration:none;
+    text-transform:uppercase;
+    padding:5px 5px;
+    border-top-left-radius: 8px !important;
+    border-bottom-left-radius: 8px !important;
+    border-top-right-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
+    }
+.nav-item a:hover{
+    background:#fff;
+    text-color:black;
+}
+/* NavBar css ends*/
+
+
+
+/* Slider  Starts*/
+
+.carousel{
+top:-54px;
+}
+.carousel-item img{
+    width:100%;
+    height:455px;
+}
+.carousel-caption{
+    top:100px;
+}
+.carousel-caption h2{
+    color:#000000;
+    font-weight:800;
+}
+.carousel-caption p{
+    color:#000000;
+    font-weight:600;
+}
+.carousel-control.right{
+    background-image:none;
+}
+.carousel-control.left{
+    background-image:none;
+}
+
+/* Slider  Ends*/
+
+/*Process section*/
+.processheader{
+padding-top:30px;
+}
+.flowprocess{
+    width:100%;
+    height:420px;
+    margin:100px 0;
+    text-align:center;
+    background:linear-gradient(20deg,#f2d121 55%, #fff 0%);
+    position:absolute;
+    top:537px;
+}
+.flowprocess h2{
+    font-weight:600;
+    padding-bottom:5px;
+    padding-top:10px;
+}
+.interndiv{
+    background-color:#fff;
+    border:medium none;
+    padding:50px!important;
+    border-radius:3px;
+    transition:0.3s;
+}
+
+.interndiv:hover
+    {
+        background:#f2d121;
+    }
+.interndiv h2{
+    font-size:1rem;
+    line-height:1.6;
+    font-weight:600;
+    word-spacing:4px;
+}
+.interndiv:hover{
+    box-shadow:0 0 20px 0 rgba(0,0,0,0.3);
+    transform:translateY(-20px);
+}
+/*Process section Ends*/
+/* About css*/
+.about{
+    width:100%;
+    height:520px;
+    margin:100px 0;
+    text-align:center;
+    top:957px;
+    position:absolute;
+    background: url("../images/about.jpg")fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color:#fff;
+    padding-top:30px;
+}
+.about p{
+color:#fff;}
+
+
+/* Expert starts*/
+.talkexpert{
+    width:100%;
+    height:500px;
+    top:1577px;
+    left:0px;
+    position:absolute;
+    padding-top:30px;
+    background:linear-gradient(336deg,#f2d121 55%, #fff 0%);
+}
+
+.form-button button{
+    border:1px solid #f2d121;
+    border-radius:100px;
+    margin:0 5px;
+    padding:12px 35px;
+    outline:none;
+    color:#f2d121;
+    font-size:1rem;
+    font-weight:500;
+    line-height:1.4;
+    text-align:center;
+    background:transparent;
+}
+
+.form:hover .form-button button{
+    background:#fff;
+    color:#f2d121;
+    box-shadow:0 0 20px 0 rgba(0,0,0,0.3);
+}
+::placeholder{
+    font-size:0.85rem;
+}
+/* Expert Ends*/
+
+.mapsection{
+    top:2100px;
+    width:100%;
+    height:auto;
+    position:absolute;
+    text-align:center;
+    background-color:#f2d121;
+    padding:30px;
+
+}
+.internadd{
+    padding:0px;
+}
+
+.company-info1 {
+    border:1px solid #f2d121;
+    border-radius:100px;
+    left:50px;
+    height:230px;
+    position:absolute;
+    padding-left:20px;
+    padding-top:20px;
+}
+.company-info1:hover {
+    background-color:#39393b;
+    color:#fff;
+    box-shadow:0 0 20px 0 rgba(0,0,0,0.3);
+    transform:translateY(-20px);
+
+}
+
+.company-info2 {
+    border:1px solid #f2d121;
+    border-radius:100px;
+    top:220px;
+    left:50px;
+    height:230px;
+    position:absolute;
+    padding-left:20px;
+    padding-top:20px;
+}
+.company-info2:hover {
+    background-color:#39393b;
+    color:#fff;
+    box-shadow:0 0 20px 0 rgba(0,0,0,0.3);
+    transform:translateY(-20px);
+
+}
+.company-info1 h3, .company-info1 ul, .company-info2 h3, .company-info2 ul {
+    text-align: left;
+    margin: 0 0 1rem 0;
+}
+
+.company-info1 ul{
+    list-style:none;
+    padding:0;
+}
+.company-info2 ul{
+    list-style:none;
+    padding:0;
+}
+
+.newsletter{
+    top:2702px;
+    left:0px;
+    position:absolute;
+    width:100%;
+    height:auto;
+}
+.news-input{
+    border-radius:100px 0 0 100px!important;
+    min-width:150px;
+    min-height:45px;
+}
+
+.input-group-text{
+    color:#fff!important;
+    background:#f2d121!important;
+    border-radius:0 100px 100px 0!important;
+    min-width:130px;
+    min-height:45px;
+}
+
+.footersection{
+    top:2200px;
+    left:0;
+    position:relative;
+    width:100%;
+    height:auto;
+    padding:70px 0 20px 0;
+    background:#f2d121!important;
+}
+.footersection p{
+    color:#39393b;
+}
+.footersection li a{
+    font-size:0.9rem;
+    line-height:1.6;
+    font-weight:600;
+    color:#fff;
+    text-transform:capitalize;
+    text-decoration:none;
+}
+.footersection h3{
+    text-transform:uppercase;
+    color:#39393b;
+    margin-bottom:25px;
+    font-size:1.2rem!important;
+    font:weight:999;
+}
+
+#myBtn{
+    position:fixed;
+    bottom:20px;
+    right:40px;
+    z-index:99;
+    border:none;
+    color:#fff!important;
+    background:#39393b!important;
+    padding:10px;
+    border-radius:10px;
+}
+#myBtn:hover{
+    background:#606060!important;
+}
+@media only screen and (max-width:414px)
+{
+    .expertdiv{
+        height:100px;
+        width:100px;
+        left:90px;
+        top:80px;
+    }
+    .expertdiv a{
+        top:25px;
+        left:5px;
+        font-size:12px;
+    }
+    .headertop
+    {
+        background-color:#007256;
+        height:400px;
+        clip-path: polygon(50% 0%, 100% 0, 100% 8%, 3% 8%, 3% 28%, 0 28%, 0 0);
+    }
+    .contact
+    {
+        width:200px;
+        left:23px;
+        top:55px;
+    }
+    .contact p
+    {
+        font-size:12px;
+    }
+    .img-fluid{
+        display:none;
+    }
+    .carousel-caption h2{
+        font-size:22px;
+    }
+    .carousel-caption p{
+        font-size:12px;
+    }
+    .square
+    {
+        height:40px;
+        width:25px:
+        top:-10px;
+        font-size:30px;
+        padding-top: -5px;
+        padding-right: 7px;
+        padding-bottom: 8px;
+        padding-left: 5px;
+        position:absolute;
+    }
+    .contact a
+    {
+        font-size:12px;
+        top:23px;
+        left:60px;
+        position:absolute;
+        font-weight: 700;
+    }
+    .email
+    {
+        font-size:12px;
+        width:200px;
+        top:55px;
+        left:198px;;
+    }
+    .emailsquare
+    {
+        height: 40px;
+        width: 49px;
+        font-size:30px;
+        padding-top: -5px;
+        padding-right: 4px;
+        padding-bottom: 4px;
+        padding-left: 9px;
+    }
+    .email p
+    {
+        font-size:12px;
+        text-align:center;
+    }
+    .email a
+    {
+        color:#555;
+        top:23px;
+        left:60px;
+        position:absolute;
+        font-weight: 700;
+    }
+
+    .navbar
+    {
+        top:-65px;
+    }
+    .flowprocess
+    {
+        height:auto;
+
+    }
+    .interndiv{
+        padding:40px!important;
+        background:#f2d121!important;
+        height:220px;
+        width:150px;
+    }
+    .processheader{
+        margin-top:5px;
+        padding:10px;
+    }
+
+    .interndiv:hover{
+    background:#fff!important;
+    transform:none;
+    }
+    .about{
+        top:1483px;
+
+    }
+    .about h4{
+        font-size:15px;
+    }
+    .talkexpert{
+        top:2100px;
+    }
+    .talkexpert h6{
+        font-size:12px;
+    }
+    .newsletter{
+        top:3780px;
+    }
+    .footersection{
+        top:3300px;;
+    }
+    .carousel
+    {
+        top:-65px;
+    }
+    .mapsection
+    {
+        top:2620px;
+        height:155vh;
+        width:100%;
+    }
+    .mapdetails
+    {
+
+        width:350px;
+    }
+    .internadd{
+        left:-14px;
+    }
+    .internadd2
+    {
+        top:60px;
+        left:-27px;
+        text-align:center;
+    }
+    .company-info1{
+        border-radius:0px;
+    }
+    .company-info2{
+        border-radius:0px;
+        top:270px;
+    }
+    .footer-div:nth-child(2){
+        text-align:left!important;
+    }
+}
+/*Slider*/
+    /*<script type="text/javascript">
+    var mobile = (/iphone|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
+    if (mobile) {
+        $('.contact').hide();
+        $('.email').hide();
+        $('.headerbase').hide();
+        $('.headertop').hide();
+    }
+    else
+    {
+       $('.contact').show();
+       $('.email').show();
+       $('.headerbase').show();
+       $('.headertop').show();
+    }
+    </script>*/
