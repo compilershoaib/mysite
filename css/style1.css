@@ -529,7 +529,8 @@ color:#fff;}
     }
     .about{
         top:1484px;
-        background-size: 400vmax 400vmax;
+        background: url("../images/about.jpg") no-repeat top center fixed; 
+        background-size: 400vmax 500vmax;
     }
     .about h4{
         font-size:15px;
