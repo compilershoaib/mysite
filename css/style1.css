@@ -604,6 +604,8 @@ color:#fff;}
         top:55px;
     }
     .contact p{
+        top:0px;
+        left:65px;
         font-size:12px;
     }
     .img-fluid{
@@ -617,14 +619,13 @@ color:#fff;}
     }
     .square{
         height:40px;
-        width:25px:
-        top:-10px;
+        width:49px;
+        top:0px;
         font-size:30px;
         padding-top: -5px;
         padding-right: 7px;
         padding-bottom: 8px;
         padding-left: 5px;
-        position:absolute;
     }
     .contact a {
         font-size:12px;
@@ -642,11 +643,11 @@ color:#fff;}
     .emailsquare{
         height: 40px;
         width: 49px;
-        font-size:30px;
-        padding-top: -5px;
+        font-size:28px;
+        padding-top: -8px;
         padding-right: 4px;
-        padding-bottom: 4px;
-        padding-left: 9px;
+        padding-bottom: 6px;
+        padding-left: 10px;
     }
     .email p{
         font-size:12px;
