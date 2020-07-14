@@ -243,7 +243,7 @@ padding-top:30px;
     text-align:center;
     top:957px;
     position:absolute;
-    background: url("../images/bg1.jpg")fixed;
+    background: url("../images/about.jpg")fixed;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -529,6 +529,8 @@ color:#fff;}
     }
     .about{
         top:1484px;
+        background: url("../images/bg1.jpg")fixed;
+
     }
     .about h4{
         font-size:15px;
