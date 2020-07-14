@@ -529,11 +529,6 @@ color:#fff;}
     }
     .about{
         top:1484px;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        -o-background-size: cover;
-        -moz-background-size: cover;
-        -webkit-background-size: cover;
     }
     .about h4{
         font-size:15px;
