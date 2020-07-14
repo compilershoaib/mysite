@@ -528,7 +528,11 @@ color:#fff;}
     transform:none;
     }
     .about{
-        top:1483px;
+        top:1484px;
+        background: url("../images/about.jpg")fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
 
     }
     .about h4{
