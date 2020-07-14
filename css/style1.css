@@ -734,6 +734,12 @@ color:#fff;}
         border-radius:0px;
         top:275px;
     }
+            .company-info1:hover{
+        transform:none;
+    }
+    .company-info2{
+        transform:none;
+    }
     .footer-div:nth-child(2){
         text-align:left!important;
     }
