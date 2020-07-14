@@ -529,8 +529,7 @@ color:#fff;}
     }
     .about{
         top:1484px;
-        background: url("../images/about.jpg");
-        height:550px;
+        min-height: 100vh;
 
     }
     .about h4{
