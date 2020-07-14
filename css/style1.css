@@ -584,6 +584,163 @@ color:#fff;}
         margin:30px 0;
     }
 }
+
+@media only screen and (min-width:360px) and (max-width: 640px) {
+
+    .expertdiv{
+        height:100px;
+        width:100px;
+        left:75px;
+        top:80px;
+    }
+    .expertdiv a{
+        top:25px;
+        left:5px;
+        font-size:12px;
+    }
+    .headertop{
+        background-color:#007256;
+        height:400px;
+        clip-path: polygon(50% 0%, 100% 0, 100% 8%, 3% 8%, 3% 28%, 0 28%, 0 0);
+    }
+    .contact{
+        width:155px;
+        left:23px;
+        top:55px;
+    }
+    .contact p{
+        top:5px;
+        left:45px;
+        position:absolute;
+        font-size:12px;
+    }
+    .img-fluid{
+        display:none;
+    }
+    .carousel-caption h2{
+        font-size:18px;
+    }
+    .carousel-caption p{
+        font-size:10px;
+    }
+    .square{
+        height:35px;
+        width:30px;
+        top:5px;
+        font-size:27px;
+        position:absolute;
+        padding-top: 0px;
+        padding-right: 4px;
+        padding-bottom: 4px;
+        padding-left: 5px;
+    }
+    .contact a {
+        font-size:12px;
+        top:25px;
+        left:40px;
+        position:absolute;
+        font-weight: 700;
+    }
+    .email{
+        font-size:12px;
+        width:155px;
+        top:60px;
+        left:170px;;
+    }
+    .emailsquare{
+        height: 35px;
+        width: 30px;
+        font-size:20px;
+        padding-top: 4px;
+        padding-right: 4px;
+        padding-bottom: 4px;
+        padding-left: 5px;
+    }
+    .email p{
+        font-size:12px;
+        text-align:center;
+    }
+    .email a{
+        color:#555;
+        top:20px;
+        left:40px;
+        position:absolute;
+        font-weight: 700;
+    }
+
+    .navbar{
+        top:-65px;
+    }
+    .flowprocess{
+        height:auto;
+    }
+    .interndiv{
+        padding:40px!important;
+        background:#f2d121!important;
+        height:220px;
+        width:150px;
+    }
+    .processheader{
+        margin-top:5px;
+        padding:10px;
+    }
+    .interndiv:hover{
+    background:#fff!important;
+    transform:none;
+    }
+    .about{
+        top:1484px;
+        background: url("../images/bg1.jpg")fixed;
+    }
+    .about h4{
+        font-size:15px;
+    }
+    .talkexpert{
+        top:2102px;
+    }
+    .talkexpert h6{
+        font-size:12px;
+    }
+    .newsletter{
+        top:3820px;
+    }
+    .footersection{
+        top:3400px;;
+    }
+    .carousel{
+        top:-65px;
+    }
+    .mapsection{
+        top:2620px;
+        height:1160px;
+        width:100%;
+    }
+    .mapdetails{
+        width:330px;
+    }
+    .internadd{
+        left:-30px;
+    }
+    .internadd2{
+        top:60px;
+        left:-27px;
+        text-align:center;
+    }
+    .company-info1{
+        border-radius:0px;
+    }
+    .company-info2{
+        border-radius:0px;
+        top:270px;
+    }
+    .footer-div:nth-child(2){
+        text-align:left!important;
+    }
+    .footer-div{
+        margin:30px 0;
+    }
+
+}
 /*Slider*/
     /*<script type="text/javascript">
     var mobile = (/iphone|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
