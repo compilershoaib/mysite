@@ -416,6 +416,21 @@ color:#fff;}
 }
 
 
+@media only screen and (max-width: 1280px) and (min-width: 800px){
+    .contact{
+        left:640px;
+    }
+
+    .email{
+        left:940px;
+    }
+        .expertdiv{
+        left:365px;
+    }
+    .expertdiv a{
+        left:10px;
+    }
+}
 
 @media only screen and (min-width:360px) and (max-width: 640px) {
 
@@ -503,6 +518,7 @@ color:#fff;}
     .navbar{
         top:-65px;
     }
+
     .flowprocess{
         height:auto;
     }
@@ -585,7 +601,7 @@ color:#fff;}
     .expertdiv{
         height:100px;
         width:100px;
-        left:90px;
+        left:95px;
         top:80px;
     }
     .expertdiv a{
@@ -702,6 +718,7 @@ color:#fff;}
     }
     .carousel{
         top:-65px;
+
     }
     .mapsection{
         top:2620px;
@@ -734,7 +751,8 @@ color:#fff;}
     }
 }
 
-@media only screen
+
+/*@media only screen
 and (min-width : 1310px)
 and (max-width : 763px)
   {
@@ -745,7 +763,7 @@ and (max-width : 763px)
         left:985px;
     }
 
-}
+}*/
 /*Slider*/
     /*<script type="text/javascript">
     var mobile = (/iphone|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
