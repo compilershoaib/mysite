@@ -34,7 +34,7 @@ li{list-style:none;}
 background-color:#f2d121;
 clip-path: polygon(100% 21%, 100% 54%, 50% 100%, 50% 100%, 0 54%, 0 21%);
 height:150px;
-width:150px;
+width:150px; 
 z-index:3;
 left:395px;
 top:65px;
@@ -415,7 +415,7 @@ color:#fff;}
     background:#606060!important;
 }
 
-@media only screen and (max-width: 1440px) and (min-width: 900px){
+/*@media only screen and (max-width: 1440px) and (min-width: 900px){
     .contact{
         left:850px;
     }
@@ -429,7 +429,7 @@ color:#fff;}
     .expertdiv a{
         left:10px;
     }
-}
+}*/
 @media only screen and (max-width: 1280px) and (min-width: 800px){
     .contact{
         left:640px;
