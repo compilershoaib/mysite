@@ -414,7 +414,20 @@ color:#fff;}
 #myBtn:hover{
     background:#606060!important;
 }
-
+@media only screen  and (max-width: 1440px){
+    .contact{
+        display:none;
+    }
+    .email{
+        display:none;
+    }
+        .expertdiv{
+        display:none;
+    }
+    .expertdiv a{
+        display:none;
+    }
+}
 @media only screen and (min-width:360px) and (max-width: 640px) {
 
     .expertdiv{
@@ -749,49 +762,6 @@ color:#fff;}
         left:10px;
     }
 }
-@media only screen  and (min-width: 900px) and (max-width: 1440px){
-    .contact{
-        display:none;
-    }
-    .email{
-        display:none;
-    }
-        .expertdiv{
-        display:none;
-    }
-    .expertdiv a{
-        display:none;
-    }
-}
 
 
 
-/*@media only screen
-and (min-width : 1310px)
-and (max-width : 763px)
-  {
-        .contact{
-        left:690px;
-    }
-    .email{
-        left:985px;
-    }
-
-}*/
-/*Slider*/
-    /*<script type="text/javascript">
-    var mobile = (/iphone|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
-    if (mobile) {
-        $('.contact').hide();
-        $('.email').hide();
-        $('.headerbase').hide();
-        $('.headertop').hide();
-    }
-    else
-    {
-       $('.contact').show();
-       $('.email').show();
-       $('.headerbase').show();
-       $('.headertop').show();
-    }
-    </script>*/
