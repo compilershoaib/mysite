@@ -34,7 +34,7 @@ li{list-style:none;}
 background-color:#f2d121;
 clip-path: polygon(100% 21%, 100% 54%, 50% 100%, 50% 100%, 0 54%, 0 21%);
 height:150px;
-width:150px; 
+width:150px;
 z-index:3;
 left:395px;
 top:65px;
@@ -415,36 +415,6 @@ color:#fff;}
     background:#606060!important;
 }
 
-@media only screen and (max-width: 1440px) and (min-width: 900px){
-    .contact{
-        left:800px;
-    }
-    .email{
-        left:1100px;
-    }
-        .expertdiv{
-        left:425px;
-    }
-    .expertdiv a{
-        left:10px;
-    }
-}
-@media only screen and (max-width: 1280px) and (min-width: 800px){
-    .contact{
-        left:640px;
-    }
-
-    .email{
-        left:940px;
-    }
-        .expertdiv{
-        left:365px;
-    }
-    .expertdiv a{
-        left:10px;
-    }
-}
-
 @media only screen and (min-width:360px) and (max-width: 640px) {
 
     .expertdiv{
@@ -763,6 +733,37 @@ color:#fff;}
         margin:30px 0;
     }
 }
+
+@media only screen and (min-width: 800px) and (max-width: 1280px){
+    .contact{
+        left:640px;
+    }
+
+    .email{
+        left:940px;
+    }
+        .expertdiv{
+        left:365px;
+    }
+    .expertdiv a{
+        left:10px;
+    }
+}
+@media only screen  and (min-width: 900px) and (max-width: 1440px){
+    .contact{
+        left:800px;
+    }
+    .email{
+        left:1100px;
+    }
+        .expertdiv{
+        left:425px;
+    }
+    .expertdiv a{
+        left:10px;
+    }
+}
+
 
 
 /*@media only screen
