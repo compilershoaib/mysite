@@ -414,7 +414,23 @@ color:#fff;}
 #myBtn:hover{
     background:#606060!important;
 }
+@media only screen and (max-width: 1440px){
+    .contact{
+        left:800px;
+    }
 
+    .email{
+        left:1095px;
+    }
+}
+@media only screen and (max-width: 1366px){
+    .contact{
+        left:730px;
+    }
+    .email{
+        left:1025px;
+    }
+}
 
 
 @media only screen and (min-width:360px) and (max-width: 640px) {
@@ -748,11 +764,7 @@ color:#fff;}
         left:10px;
     }
 }
-@media only screen and(max-width:1440){
-    .contact{
-        left:800px;
-    }
-}
+
 
 /*@media only screen
 and (min-width : 1310px)
