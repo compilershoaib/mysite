@@ -415,7 +415,21 @@ color:#fff;}
     background:#606060!important;
 }
 
+@media only screen and (max-width: 1440px) and (min-width: 900px){
+    .contact{
+        left:1050px;
+    }
 
+    .email{
+        left:1250px;
+    }
+        .expertdiv{
+        left:425px;
+    }
+    .expertdiv a{
+        left:10px;
+    }
+}
 @media only screen and (max-width: 1280px) and (min-width: 800px){
     .contact{
         left:640px;
@@ -751,21 +765,7 @@ color:#fff;}
     }
 }
 
-@media only screen and (max-width: 1440px) and (min-width: 900px){
-    .contact{
-        left:950px;
-    }
 
-    .email{
-        left:1250px;
-    }
-        .expertdiv{
-        left:425px;
-    }
-    .expertdiv a{
-        left:10px;
-    }
-}
 /*@media only screen
 and (min-width : 1310px)
 and (max-width : 763px)
