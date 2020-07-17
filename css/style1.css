@@ -417,11 +417,10 @@ color:#fff;}
 
 @media only screen and (max-width: 1440px) and (min-width: 900px){
     .contact{
-        left:1050px;
+        left:800px;
     }
-
     .email{
-        left:1250px;
+        left:1100px;
     }
         .expertdiv{
         left:425px;
