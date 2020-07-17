@@ -415,7 +415,21 @@ color:#fff;}
     background:#606060!important;
 }
 
+@media only screen and (max-width: 1440px) and (min-width: 900px){
+    .contact{
+        left:800px;
+    }
 
+    .email{
+        left:1100px;
+    }
+        .expertdiv{
+        left:425px;
+    }
+    .expertdiv a{
+        left:10px;
+    }
+}
 @media only screen and (max-width: 1280px) and (min-width: 800px){
     .contact{
         left:640px;
