@@ -414,20 +414,9 @@ color:#fff;}
 #myBtn:hover{
     background:#606060!important;
 }
-@media only screen  and (max-width: 1440px){
-    .contact{
-        display:none;
-    }
-    .email{
-        display:none;
-    }
-        .expertdiv{
-        display:none;
-    }
-    .expertdiv a{
-        display:none;
-    }
-}
+
+
+
 @media only screen and (min-width:360px) and (max-width: 640px) {
 
     .expertdiv{
@@ -514,7 +503,6 @@ color:#fff;}
     .navbar{
         top:-65px;
     }
-
     .flowprocess{
         height:auto;
     }
@@ -597,7 +585,7 @@ color:#fff;}
     .expertdiv{
         height:100px;
         width:100px;
-        left:95px;
+        left:90px;
         top:80px;
     }
     .expertdiv a{
@@ -714,7 +702,6 @@ color:#fff;}
     }
     .carousel{
         top:-65px;
-
     }
     .mapsection{
         top:2620px;
@@ -746,8 +733,7 @@ color:#fff;}
         margin:30px 0;
     }
 }
-
-@media only screen and (min-width: 800px) and (max-width: 1280px){
+@media only screen and (max-width: 1280px) and (min-width: 800px){
     .contact{
         left:640px;
     }
@@ -764,4 +750,32 @@ color:#fff;}
 }
 
 
+/*@media only screen
+and (min-width : 1310px)
+and (max-width : 763px)
+  {
+        .contact{
+        left:690px;
+    }
+    .email{
+        left:985px;
+    }
 
+}*/
+/*Slider*/
+    /*<script type="text/javascript">
+    var mobile = (/iphone|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
+    if (mobile) {
+        $('.contact').hide();
+        $('.email').hide();
+        $('.headerbase').hide();
+        $('.headertop').hide();
+    }
+    else
+    {
+       $('.contact').show();
+       $('.email').show();
+       $('.headerbase').show();
+       $('.headertop').show();
+    }
+    </script>*/
