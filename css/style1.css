@@ -734,7 +734,7 @@ color:#fff;}
     }
 }
 @media only screen
-and (min-device-width : 1310px)
+and (max-width : 1310px)
   {
         .contact{
         left:690px;
