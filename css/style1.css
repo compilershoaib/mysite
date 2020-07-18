@@ -422,6 +422,36 @@ color:#fff;}
     .email{
         left:1095px;
     }
+    .expertdiv{
+background-color:#f2d121;
+clip-path: polygon(100% 21%, 100% 54%, 50% 100%, 50% 100%, 0 54%, 0 21%);
+height:150px;
+width:150px;
+z-index:3;
+left:423px;
+top:65px;
+position:absolute;
+text-align:center;
+}
+.expertdiv a{
+    font-size:18px;
+    color:#000;
+    z-index:3;
+    top:40px;
+    left:11px;
+    font-weight:600;
+    position:absolute;
+    padding:5px 5px;
+    border-top-left-radius: 8px !important;
+    border-bottom-left-radius: 8px !important;
+    border-top-right-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
+}
+.expertdiv a:hover{
+    text-decoration:none;
+    background:#fff;
+    color:#000;}
+
 }
 @media only screen and (max-width: 1366px){
     .contact{
@@ -430,6 +460,36 @@ color:#fff;}
     .email{
         left:1025px;
     }
+    .expertdiv{
+        background-color:#f2d121;
+        clip-path: polygon(100% 21%, 100% 54%, 50% 100%, 50% 100%, 0 54%, 0 21%);
+        height:150px;
+        width:150px;
+        z-index:3;
+        left:397px;
+        top:65px;
+        position:absolute;
+        text-align:center;
+    }
+    .expertdiv a{
+        font-size:18px;
+        color:#000;
+        z-index:3;
+        top:40px;
+        left:11px;
+        font-weight:600;
+        position:absolute;
+        padding:5px 5px;
+        border-top-left-radius: 8px !important;
+        border-bottom-left-radius: 8px !important;
+        border-top-right-radius: 8px !important;
+        border-bottom-right-radius: 8px !important;
+    }
+    .expertdiv a:hover{
+        text-decoration:none;
+        background:#fff;
+        color:#000;}
+
 }
 
 
@@ -765,33 +825,3 @@ color:#fff;}
     }
 }
 
-
-/*@media only screen
-and (min-width : 1310px)
-and (max-width : 763px)
-  {
-        .contact{
-        left:690px;
-    }
-    .email{
-        left:985px;
-    }
-
-}*/
-/*Slider*/
-    /*<script type="text/javascript">
-    var mobile = (/iphone|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
-    if (mobile) {
-        $('.contact').hide();
-        $('.email').hide();
-        $('.headerbase').hide();
-        $('.headertop').hide();
-    }
-    else
-    {
-       $('.contact').show();
-       $('.email').show();
-       $('.headerbase').show();
-       $('.headertop').show();
-    }
-    </script>*/
