@@ -414,7 +414,7 @@ color:#fff;}
 #myBtn:hover{
     background:#606060!important;
 }
-@media only screen  and (max-width: 1440px){
+@media only screen  and(min-width:1367px)and (max-width: 1440px){
     .contact{
         right:800px;
     }
