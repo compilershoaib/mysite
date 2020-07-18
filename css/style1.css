@@ -416,7 +416,7 @@ color:#fff;}
 }
 @media only screen  and(min-width:1367px)and (max-width: 1440px){
     .contact{
-        right:800px;
+        right:0px;
     }
 
     .email{
