@@ -416,21 +416,23 @@ color:#fff;}
 }
 @media only screen and (min-width: 1367px) and (max-width: 1440px){
     .contact{
-        display:none;
+        left:800px;
 
     }
     .email{
-       display:none;
+        left:1095px;
     }
     .expertdiv{
-       display:none;
+        left:423px;
      }
     .expertdiv a{
-        display:none;
+        left:11px;
 
     }
     .expertdiv a:hover{
-    display:none;
+        text-decoration:none;
+        background:#fff;
+        color:#000;}
 
 }
 @media only screen and (max-width: 1366px){
